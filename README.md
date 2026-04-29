@@ -3,9 +3,9 @@ Here’s a **clean, professional GitHub project description (README-ready)** bas
 
 ---
 
-# 🚀 Formula 1 Lakehouse – End-to-End Azure Data Engineering Project
+#  Formula 1 Lakehouse – End-to-End Azure Data Engineering Project
 
-## 📌 Overview
+##  Overview
 
 This project demonstrates a **production-style data engineering pipeline** built using **Azure Databricks, Delta Lake, and ADLS Gen2**, implementing the **Medallion Architecture (Bronze → Silver → Gold)**.
 
@@ -13,7 +13,7 @@ It showcases ingestion, transformation, optimization, governance, and orchestrat
 
 ---
 
-# 🧱 Architecture
+#  Architecture
 
 ```text
 ADLS (Landing)
@@ -29,7 +29,7 @@ Power BI
 
 ---
 
-# ⚙️ Tech Stack
+#  Tech Stack
 
 * **Azure Databricks**
 * **PySpark & Spark SQL**
@@ -40,9 +40,9 @@ Power BI
 
 ---
 
-# 🔄 Pipeline Breakdown
+#  Pipeline Breakdown
 
-## 📥 Landing → Bronze (Ingestion Layer)
+##  Landing → Bronze (Ingestion Layer)
 
 * Ingested raw **CSV/JSON files from ADLS landing zone**
 * Used **PySpark DataFrame Reader API**
@@ -60,7 +60,7 @@ Power BI
 
 ---
 
-## 🧹 Bronze → Silver (Transformation Layer)
+##  Bronze → Silver (Transformation Layer)
 
 * Applied data quality checks:
 
@@ -78,7 +78,7 @@ Power BI
 
 ---
 
-## 🏆 Silver → Gold (Business Layer)
+##  Silver → Gold (Business Layer)
 
 * Built **fact and dimension models**:
 
@@ -100,7 +100,7 @@ Power BI
 
 ---
 
-# 🔐 Governance (Unity Catalog)
+#  Governance (Unity Catalog)
 
 * Implemented **3-level namespace**:
 
@@ -119,7 +119,7 @@ Power BI
 
 ---
 
-# 🔁 Orchestration
+#  Orchestration
 
 * Built pipeline orchestration using **Databricks Jobs**
 * Implemented:
@@ -134,7 +134,7 @@ Power BI
 
 ---
 
-# ⚡ Performance Optimization
+#  Performance Optimization
 
 * Implemented:
 
